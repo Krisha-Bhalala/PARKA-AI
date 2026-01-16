@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		7121E3F82DF622B90012AB87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7121E3E02DF622B50012AB87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7121E3E72DF622B50012AB87;
+			remoteInfo = "Parka AI";
+		};
+		7121E4022DF622B90012AB87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7121E3E02DF622B50012AB87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7121E3E72DF622B50012AB87;
+			remoteInfo = "Parka AI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7121E3E82DF622B50012AB87 /* Parka AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parka AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7121E3F72DF622B90012AB87 /* Parka AITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parka AITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7121E4012DF622B90012AB87 /* Parka AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parka AIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7121E3EA2DF622B50012AB87 /* Parka AI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Parka AI";
+			sourceTree = "<group>";
+		};
+		7121E3FA2DF622B90012AB87 /* Parka AITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Parka AITests";
+			sourceTree = "<group>";
+		};
+		7121E4042DF622B90012AB87 /* Parka AIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Parka AIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7121E3E52DF622B50012AB87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7121E3F42DF622B90012AB87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7121E3FE2DF622B90012AB87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7121E3DF2DF622B50012AB87 = {
+			isa = PBXGroup;
+			children = (
+				7121E3EA2DF622B50012AB87 /* Parka AI */,
+				7121E3FA2DF622B90012AB87 /* Parka AITests */,
+				7121E4042DF622B90012AB87 /* Parka AIUITests */,
+				7121E3E92DF622B50012AB87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7121E3E92DF622B50012AB87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7121E3E82DF622B50012AB87 /* Parka AI.app */,
+				7121E3F72DF622B90012AB87 /* Parka AITests.xctest */,
+				7121E4012DF622B90012AB87 /* Parka AIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7121E3E72DF622B50012AB87 /* Parka AI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7121E40B2DF622B90012AB87 /* Build configuration list for PBXNativeTarget "Parka AI" */;
+			buildPhases = (
+				7121E3E42DF622B50012AB87 /* Sources */,
+				7121E3E52DF622B50012AB87 /* Frameworks */,
+				7121E3E62DF622B50012AB87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7121E3EA2DF622B50012AB87 /* Parka AI */,
+			);
+			name = "Parka AI";
+			packageProductDependencies = (
+			);
+			productName = "Parka AI";
+			productReference = 7121E3E82DF622B50012AB87 /* Parka AI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7121E3F62DF622B90012AB87 /* Parka AITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7121E40E2DF622B90012AB87 /* Build configuration list for PBXNativeTarget "Parka AITests" */;
+			buildPhases = (
+				7121E3F32DF622B90012AB87 /* Sources */,
+				7121E3F42DF622B90012AB87 /* Frameworks */,
+				7121E3F52DF622B90012AB87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7121E3F92DF622B90012AB87 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7121E3FA2DF622B90012AB87 /* Parka AITests */,
+			);
+			name = "Parka AITests";
+			packageProductDependencies = (
+			);
+			productName = "Parka AITests";
+			productReference = 7121E3F72DF622B90012AB87 /* Parka AITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7121E4002DF622B90012AB87 /* Parka AIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7121E4112DF622B90012AB87 /* Build configuration list for PBXNativeTarget "Parka AIUITests" */;
+			buildPhases = (
+				7121E3FD2DF622B90012AB87 /* Sources */,
+				7121E3FE2DF622B90012AB87 /* Frameworks */,
+				7121E3FF2DF622B90012AB87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7121E4032DF622B90012AB87 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7121E4042DF622B90012AB87 /* Parka AIUITests */,
+			);
+			name = "Parka AIUITests";
+			packageProductDependencies = (
+			);
+			productName = "Parka AIUITests";
+			productReference = 7121E4012DF622B90012AB87 /* Parka AIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7121E3E02DF622B50012AB87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					7121E3E72DF622B50012AB87 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					7121E3F62DF622B90012AB87 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 7121E3E72DF622B50012AB87;
+					};
+					7121E4002DF622B90012AB87 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 7121E3E72DF622B50012AB87;
+					};
+				};
+			};
+			buildConfigurationList = 7121E3E32DF622B50012AB87 /* Build configuration list for PBXProject "Parka AI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7121E3DF2DF622B50012AB87;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7121E3E92DF622B50012AB87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7121E3E72DF622B50012AB87 /* Parka AI */,
+				7121E3F62DF622B90012AB87 /* Parka AITests */,
+				7121E4002DF622B90012AB87 /* Parka AIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7121E3E62DF622B50012AB87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7121E3F52DF622B90012AB87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7121E3FF2DF622B90012AB87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7121E3E42DF622B50012AB87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7121E3F32DF622B90012AB87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7121E3FD2DF622B90012AB87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7121E3F92DF622B90012AB87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7121E3E72DF622B50012AB87 /* Parka AI */;
+			targetProxy = 7121E3F82DF622B90012AB87 /* PBXContainerItemProxy */;
+		};
+		7121E4032DF622B90012AB87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7121E3E72DF622B50012AB87 /* Parka AI */;
+			targetProxy = 7121E4022DF622B90012AB87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7121E4092DF622B90012AB87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7121E40A2DF622B90012AB87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7121E40C2DF622B90012AB87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Parka AI/Parka AI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GV9Z73SH5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Parka-AI-Info.plist";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your health data to track Parkinson's symptoms and provide personalized insights ";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Our app needs access to update your health data to track your progress";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parkinsons.ParkaAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7121E40D2DF622B90012AB87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Parka AI/Parka AI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GV9Z73SH5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Parka-AI-Info.plist";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your health data to track Parkinson's symptoms and provide personalized insights ";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Our app needs access to update your health data to track your progress";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parkinsons.ParkaAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7121E40F2DF622B90012AB87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parkinsons.Parka-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parka AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Parka AI";
+			};
+			name = Debug;
+		};
+		7121E4102DF622B90012AB87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parkinsons.Parka-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parka AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Parka AI";
+			};
+			name = Release;
+		};
+		7121E4122DF622B90012AB87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parkinsons.Parka-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Parka AI";
+			};
+			name = Debug;
+		};
+		7121E4132DF622B90012AB87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parkinsons.Parka-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Parka AI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7121E3E32DF622B50012AB87 /* Build configuration list for PBXProject "Parka AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7121E4092DF622B90012AB87 /* Debug */,
+				7121E40A2DF622B90012AB87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7121E40B2DF622B90012AB87 /* Build configuration list for PBXNativeTarget "Parka AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7121E40C2DF622B90012AB87 /* Debug */,
+				7121E40D2DF622B90012AB87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7121E40E2DF622B90012AB87 /* Build configuration list for PBXNativeTarget "Parka AITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7121E40F2DF622B90012AB87 /* Debug */,
+				7121E4102DF622B90012AB87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7121E4112DF622B90012AB87 /* Build configuration list for PBXNativeTarget "Parka AIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7121E4122DF622B90012AB87 /* Debug */,
+				7121E4132DF622B90012AB87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7121E3E02DF622B50012AB87 /* Project object */;
+}

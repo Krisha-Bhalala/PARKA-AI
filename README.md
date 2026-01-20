@@ -32,6 +32,11 @@ git clone https://github.com/YOUR_USERNAME/ParkaAI.git
 ```
 2.Open in Xcode:
 ```bash
+cd ParkaAI
+open Parka\ AI.xcodeproj
+```
+Add your API keys in APIConfig.plist (this file is ignored by Git).
+Build and run on a simulator or device.
 
 ## Research Poster
 
@@ -41,8 +46,3 @@ Here’s an overview of Parka AI, including screenshots, workflow, and key featu
 
 [Download the full poster (JPEG)](ParkaAI_Poster.jpeg)
 
-cd ParkaAI
-open Parka\ AI.xcodeproj
-```
-Add your API keys in APIConfig.plist (this file is ignored by Git).
-Build and run on a simulator or device.

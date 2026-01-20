@@ -32,6 +32,15 @@ git clone https://github.com/YOUR_USERNAME/ParkaAI.git
 ```
 2.Open in Xcode:
 ```bash
+
+## Research Poster
+
+Here’s an overview of Parka AI, including screenshots, workflow, and key features:
+
+![Parka AI Poster](ParkaAI_Poster.jpeg)
+
+[Download the full poster (JPEG)](ParkaAI_Poster.jpeg)
+
 cd ParkaAI
 open Parka\ AI.xcodeproj
 ```
